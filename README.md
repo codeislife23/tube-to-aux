@@ -1,4 +1,4 @@
-# YouTube Audio Downloader
+# TubetoAux.py
 
 ## Overview
 This script allows users to download audio from a YouTube video in their preferred format using the `yt_dlp` library. The downloaded audio file is saved locally with the video's title as the filename.
@@ -27,10 +27,10 @@ This script allows users to download audio from a YouTube video in their preferr
      - Under "System Variables," find the `Path` variable and click "Edit."
      - Add the path to the `bin` folder of FFmpeg.
 3. **Run the Script**:
-   - Save the script as `youtube_audio_downloader.py`.
+   - Save the script as `tubetoaux.py`.
    - Open Command Prompt in the script's directory and run:
      ```bash
-     python youtube_audio_downloader.py
+     python tubetoaux.py
      ```
 
 ---
@@ -49,10 +49,10 @@ This script allows users to download audio from a YouTube video in their preferr
      sudo apt install ffmpeg
      ```
 3. **Run the Script**:
-   - Save the script as `youtube_audio_downloader.py`.
+   - Save the script as `tubetoaux.py`.
    - Open a terminal in the script's directory and run:
      ```bash
-     python3 youtube_audio_downloader.py
+     python3 tubetoaux.py
      ```
 
 ---
@@ -117,11 +117,11 @@ This ensures the script provides meaningful feedback if something goes wrong.
 
 ## Usage
 1. Ensure Python is installed and accessible from your command line or terminal.
-2. Save the script as a `.py` file (e.g., `youtube_audio_downloader.py`).
+2. Save the script as a `.py` file (e.g., `tubetoaux.py`).
 3. Open a terminal or command prompt in the directory where the script is saved.
 4. Run the script with the following command:
     ```bash
-    python youtube_audio_downloader.py
+    python tubetoaux.py
     ```
 5. Enter the YouTube video URL when prompted.
 6. Specify the desired audio format (e.g., `mp3`, `wav`).
